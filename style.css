@@ -1,79 +1,105 @@
 *{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-font-family: "Microsoft JhengHei", sans-serif;
-background-color: #f4f4f4;
+    font-family: "Microsoft JhengHei", sans-serif;
+    background: #050816;
+    color: #ffffff;
 }
 
 /* 頁首 */
 .header{
-background-color: #3498db;
-color: white;
-text-align: center;
-padding: 30px;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    text-align: center;
+    padding: 50px;
+    border-bottom: 3px solid #00ffff;
+}
+
+.header h1{
+    color: #00ffff;
+    font-size: 42px;
+    letter-spacing: 5px;
+    text-shadow: 0 0 15px #00ffff;
+}
+
+.header p{
+    margin-top: 10px;
+    color: #b8ffff;
 }
 
 /* 導覽列 */
 .nav{
-background-color: #2c3e50;
-text-align: center;
-padding: 15px;
+    background: #080f2a;
+    text-align: center;
+    padding: 18px;
+    border-bottom: 2px solid #7f00ff;
 }
 
 .nav a{
-color: white;
-text-decoration: none;
-margin: 0 15px;
+    color: #00ffff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
 }
 
-/* 主內容 */
+.nav a:hover{
+    color: #ff00ff;
+    text-shadow: 0 0 10px #ff00ff;
+}
+
+/* 主版面 */
 .container{
-display: flex;
+    display: flex;
+    padding: 30px;
+    gap: 25px;
 }
 
-/* 左側內容區 */
+/* 主要內容 */
 .content{
-width: 70%;
-background-color: #2ecc71;
-padding: 30px;
-min-height: 400px;
+    width: 70%;
+    background: rgba(0, 255, 255, 0.12);
+    border: 2px solid #00ffff;
+    padding: 30px;
+    min-height: 400px;
+    box-shadow: 0 0 20px #00ffff;
 }
 
-/* 右側欄位 */
+/* 右側資訊 */
 .sidebar{
-width: 30%;
-background-color: #f39c12;
-padding: 30px;
-}
-
-/* 圖片 */
-img{
-width: 150px;
-height: 150px;
-border-radius: 50%;
-display: block;
-margin: 0 auto 20px;
+    width: 30%;
+    background: rgba(127, 0, 255, 0.18);
+    border: 2px solid #9b59ff;
+    padding: 30px;
+    box-shadow: 0 0 20px #9b59ff;
 }
 
 /* 標題 */
 h2{
-margin-top: 20px;
-margin-bottom: 10px;
+    color: #00ffff;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    text-shadow: 0 0 8px #00ffff;
 }
 
-/* 清單 */
+/* 文字 */
+p{
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
 ul{
-margin-left: 20px;
+    margin-left: 25px;
+    line-height: 2;
 }
 
 /* 頁尾 */
 .footer{
-background-color: #34495e;
-color: white;
-text-align: center;
-padding: 20px;
+    background: #080f2a;
+    color: #00ffff;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #00ffff;
 }
