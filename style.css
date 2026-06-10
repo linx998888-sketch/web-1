@@ -1,0 +1,79 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+font-family: "Microsoft JhengHei", sans-serif;
+background-color: #f4f4f4;
+}
+
+/* 頁首 */
+.header{
+background-color: #3498db;
+color: white;
+text-align: center;
+padding: 30px;
+}
+
+/* 導覽列 */
+.nav{
+background-color: #2c3e50;
+text-align: center;
+padding: 15px;
+}
+
+.nav a{
+color: white;
+text-decoration: none;
+margin: 0 15px;
+}
+
+/* 主內容 */
+.container{
+display: flex;
+}
+
+/* 左側內容區 */
+.content{
+width: 70%;
+background-color: #2ecc71;
+padding: 30px;
+min-height: 400px;
+}
+
+/* 右側欄位 */
+.sidebar{
+width: 30%;
+background-color: #f39c12;
+padding: 30px;
+}
+
+/* 圖片 */
+img{
+width: 150px;
+height: 150px;
+border-radius: 50%;
+display: block;
+margin: 0 auto 20px;
+}
+
+/* 標題 */
+h2{
+margin-top: 20px;
+margin-bottom: 10px;
+}
+
+/* 清單 */
+ul{
+margin-left: 20px;
+}
+
+/* 頁尾 */
+.footer{
+background-color: #34495e;
+color: white;
+text-align: center;
+padding: 20px;
+}
